@@ -1,0 +1,167 @@
+# Copyright (C) 2012 AitThemes.com 
+# This file is distributed under the same license as the AIT Rounder WordPress Theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rounder 1.4\n"
+"Report-Msgid-Bugs-To: http://support.ait-themes.com/categories/wp-rounder\n"
+"POT-Creation-Date: 2012-11-20T23:46:12+01:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: \Templates\archive.php:18
+msgid "Daily Archives:"
+msgstr ""
+
+#: \Templates\archive.php:20
+msgid "Monthly Archives:"
+msgstr ""
+
+#: \Templates\archive.php:22
+msgid "Yearly Archives:"
+msgstr ""
+
+#: \Templates\archive.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: \Templates\author.php:15
+msgid "Author Archives:"
+msgstr ""
+
+#: \Templates\author.php:27
+msgctxt "about author"
+msgid "About"
+msgstr ""
+
+#: \Templates\category.php:17
+msgid "Category Archives:"
+msgstr ""
+
+#: \Templates\comments.php:5
+msgid "Close Comments"
+msgstr ""
+
+#: \Templates\comments.php:7
+msgid "Show Comments"
+msgstr ""
+
+#: \Templates\comments.php:27
+msgid "Pingback"
+msgstr ""
+
+#: \Templates\comments.php:51
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: \Templates\comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: \Templates\comments.php:72
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: \Templates\index.php:25
+#: \Templates\page-fullwidth.php:20
+#: \Templates\page.php:20
+msgid "You are here:"
+msgstr ""
+
+#: \Templates\search.php:15
+msgid "Search Results for:"
+msgstr ""
+
+#: \Templates\single-ait-grid-portfolio.php:49
+#: \Templates\single.php:41
+msgctxt "posted"
+msgid "Posted:"
+msgstr ""
+
+#: \Templates\single-ait-grid-portfolio.php:50
+#: \Templates\single.php:42
+#: \Templates\snippets\content-loop.php:78
+#: \Templates\snippets\posted-by.php:1
+msgid "View all posts by"
+msgstr ""
+
+#: \Templates\single-ait-grid-portfolio.php:56
+#: \Templates\single.php:48
+msgid "Categories:"
+msgstr ""
+
+#: \Templates\single-ait-grid-portfolio.php:62
+#: \Templates\single.php:54
+msgid "Tagged:"
+msgstr ""
+
+#: \Templates\snippets\comments-link.php:7
+msgid "Leave a reply"
+msgstr ""
+
+#: \Templates\snippets\comments-link.php:13
+msgctxt "one reply"
+msgid "Reply"
+msgstr ""
+
+#: \Templates\snippets\comments-link.php:15
+msgctxt "more replies"
+msgid "Replies"
+msgstr ""
+
+#: \Templates\snippets\comments-pagination.php:4
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: \Templates\snippets\comments-pagination.php:5
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: \Templates\snippets\content-loop.php:53
+msgid "Permalink to"
+msgstr ""
+
+#: \Templates\snippets\content-loop.php:54
+msgctxt "share button label"
+msgid "share"
+msgstr ""
+
+#: \Templates\snippets\content-nav.php:3
+msgid "%s Newer posts"
+msgstr ""
+
+#: \Templates\snippets\content-nav.php:4
+msgid "%s Older posts"
+msgstr ""
+
+#: \Templates\snippets\nothing-found.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: \Templates\snippets\nothing-found.php:7
+msgid "Apologies, but no results were found for the request. Perhaps searching will help find a related post."
+msgstr ""
+
+#: \Templates\snippets\post-nav.php:2
+msgid "%s Previous"
+msgstr ""
+
+#: \Templates\snippets\post-nav.php:3
+msgid "%s Next"
+msgstr ""
+
+#: \Templates\snippets\search-form.php:4
+msgid "Search"
+msgstr ""
+
+#: \Templates\snippets\search-form.php:5
+msgid "search..."
+msgstr ""
+
+#: \Templates\tag.php:17
+msgid "Tag Archives:"
+msgstr ""

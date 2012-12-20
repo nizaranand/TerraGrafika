@@ -1,0 +1,44 @@
+overrideGlobal:
+	label: Use these settings
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+showPresentation:
+	label: Show
+	type: radio
+	default: {
+		'yes': {
+			label: 'Yes'
+			checked: true
+		}
+		'no': {
+			label: 'No'
+		}
+	}
+presentationTitle:
+	label: Title
+	type: text
+	default: 'Presentation'
+presentationEffect:
+	label: "Transition Effect"
+	type: select
+	default: {
+		Random: {
+			label: Random
+		},
+		FadeIn: {
+			label: FadeIn
+			checked: true
+		},
+		ScrollIn: {
+			label: ScrollIn
+		},
+		ScrollOut: {
+			label: ScrollOut
+		}
+	}
+presentationType:
+	label: Presentation Type
+	type: dropdown-categories
+	default: 'presentation'

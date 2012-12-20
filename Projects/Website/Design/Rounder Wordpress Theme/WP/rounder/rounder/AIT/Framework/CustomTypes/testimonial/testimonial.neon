@@ -1,0 +1,8 @@
+testimonialsLink:
+	label: Link
+	type: text
+	default: ""
+testimonialsAuthor:
+	label: Author
+	type: text
+	default: ""

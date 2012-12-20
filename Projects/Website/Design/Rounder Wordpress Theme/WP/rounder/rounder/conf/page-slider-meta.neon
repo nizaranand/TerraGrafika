@@ -1,0 +1,39 @@
+overrideGlobal:
+	label: Use these settings
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+sliderEnable:
+	label: Show
+	type: radio
+	default:
+		true:
+			label: 'Yes'
+			checked: true
+		false:
+			label: 'No'
+sliderType:
+	label: Slider type
+	type: dropdown-sliders
+	default: Revolution slider
+sliderCategory:
+	label: Anything slider
+	type: dropdown-categories
+	default: slider-creator
+sliderAliases:
+	label: Revolution slider
+	type: dropdown-slider-aliases
+	default: subSlider
+sliderAlternative:
+	label: Slider alternative
+	type: image-url
+	default: ''
+sliderHeight:
+	label: "Slider Height (px)"
+	type: text
+	default: 442
+sliderBgImg:
+	label: Slider Background Image
+	type: image-url
+	default: ''

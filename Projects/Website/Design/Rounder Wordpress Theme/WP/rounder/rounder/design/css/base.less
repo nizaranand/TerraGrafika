@@ -1,0 +1,140 @@
+/* UPDATED RESET CSS by Patto - HTML 5 READY */ 
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* HTML 5 */
+html, div, map, dt, isindex, form {  
+    display: block;  
+}
+
+/* Make HTML 5 elements display block-level for consistent styling */  
+header, nav, article, footer, address {  
+    display: block;  
+}
+
+.clearfix {
+	*zoom: 1;
+	&:before, &:after {
+		display: table; content: ""; }
+	&:after {
+		clear: both; }
+}
+
+.rounded(@radius: 100%) {
+  -webkit-border-radius: @radius; -moz-border-radius: @radius; border-radius: @radius;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+/*  -ms-behavior: url('../js/libs/PIE.htc');
+  behavior: url('../js/libs/PIE.htc');*/
+}
+
+.box-shadow(@args) {
+  -webkit-box-shadow: @args;
+  -moz-box-shadow: @args;
+  box-shadow: @args;
+/*  -ms-behavior: url('../js/libs/PIE.htc');
+  behavior: url('../js/libs/PIE.htc');*/
+}
+
+.border-box-sizing {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.opacity(@opacity: 0.5) {
+  -moz-opacity: @opacity;
+  -khtml-opacity: @opacity;
+  -webkit-opacity: @opacity;
+  opacity: @opacity;
+}
+
+.transition(@args) {
+  transition: @args;
+  -moz-transition: @args;
+  -webkit-transition: @args;
+  -o-transition: @args;
+}
+
+.transform(@args) {
+  transform: @args;
+  -moz-transform: @args;
+  -webkit-transform: @args;
+  -o-transform: @args;
+}
+
+.transforming-transition(@args) {
+  transition: transform @args;
+  -moz-transition: -moz-transform @args;
+  -webkit-transition: -webkit-transform @args;
+  -o-transition: -o-transform @args;
+}
+
+.left 					       { float:left;  }
+.right					       { float:right; }
+.fl						         { float: left; }
+.fr						         { float: right; }
+
+.normal 				       { font-weight: normal; }
+
+.block 					       { display: block; }  
+.hidden 				       { display: none; }
+
+.center					       { text-align: center; }
+.aligncenter 			     { margin: auto; text-align: center; margin-bottom: 20px; display: block !important;}
+.alignleft				     { float: left; margin: 0px 15px 20px 0px; }
+.alignright 			     { float: right; margin: 0px 0px 20px 15px; }
+
+.cleanmargin			     { margin: 0px !important; }
+.clean-margin			     { margin: 0px !important; }
+.cleanmargin-bottom		 { margin-bottom: 0px !important; }
+.cleanpadding			     { padding: 0px !important; }
+.clean-padding			   { padding: 0px !important; }
+.clean-line				     { line-height: normal !important; }
+.clean-line				     { line-height: normal !important; }

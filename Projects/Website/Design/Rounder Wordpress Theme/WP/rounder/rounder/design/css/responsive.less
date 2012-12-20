@@ -1,0 +1,148 @@
+/* ======================================
+ 
+    Responsive Stylesheet
+ 
+========================================= */
+
+@media all and (max-width: 497px) {
+
+/* ======================================================= */
+/* LAYOUT SETTINGS                  					   */
+/* ======================================================= */
+
+body, .page-footer,
+.topbar-sticky, 
+.header-background-wrapper				{ min-width: 0; }
+
+.mainpage 								{ width: 480px; }
+.wrapper 								{ width: 100%; }
+
+/* ========================== */
+/* TOPBAR SETTINGS            */
+/* ========================== */
+
+.topbar-sticky 							{ height: auto; text-align: center; }
+
+/* MENU */
+.menu-content, .menu-content > nav		{ float: none;}
+.menu-content 							{ margin: 10px 0; }
+.responsive-menu 						{ display: inline-block; }
+.mainmenu > ul 							{ display: none; }
+.menu-content #slidingArrow				{ display: none !important; }
+
+/* RIGHT SIDE */
+.side-right 	 						{ display: inline-block; margin: 0 0 10px; }
+.wpml-switch:hover .bubble 				{ top: 80px; }
+
+/* ========================== */
+/* LOGO SETTINGS              */
+/* ========================== */
+
+.logo-wrap 								{ padding: 150px 0 0; text-align: center; }
+.logo 									{ position: static; display: inline-block; }
+.logo > img								{ display: block; margin: 0 auto 10px; }
+.logo > span 							{ display: inline; }
+
+/* ========================== */
+/* SLIDER SETTINGS            */
+/* ========================== */
+
+.header-background-wrapper 			 	{ background: none !important; }
+.anything-caption 						{ display: none; }
+body .anythingSlider					{ padding-top: 20px; }
+body #slider							{ width: 440px ; }
+.anythingSlider .panel 					{ width: 440px !important; }
+
+/* ========================== */
+/* CONTENT SETTINGS           */
+/* ========================== */
+
+.section 								{ width: 440px;  padding: 0 20px; }
+#content 								{ width: 440px !important; float: none; }
+.page-sidebar 							{ margin: 25px auto -45px !important; float: none; }
+
+/* SERVICE BOXES */
+section.services 						{ overflow: hidden; padding-top: 25px; }
+.services .sbox 						{ width: 197px !important; }
+.services .sbox:nth-child(even) 		{ margin-right: 0; }
+
+/* PRESENTATION */
+section.presentation 					{ display: block; width: 440px; }
+section.presentation .picture,
+section.presentation .cont 				{ display: block; width: 100%; text-align: center; }
+section.presentation .cont li 			{ text-align: left; }
+section.presentation .pic-item 			{ float: none; display: inline-block; }
+/* ========================== */
+/* BLOG SETTINGS              */
+/* ========================== */
+
+.hentry .entry-preview 					{ width: 270px !important; }
+.hentry.no-thumbnail .entry-preview		{ width: 370px !important; }
+
+/* ========================== */
+/* FOOTER SETTINGS            */
+/* ========================== */
+
+.page-footer 							{ width: 480px; }
+.footer-widgets .holder 				{ margin: 0; }
+.foot-holder 							{ padding: 22px 20px; text-align: center; }
+.foot-holder .wrapper > .left 			{ float: none; margin: 0 0 10px; }
+.foot-holder .wrapper > .footer-menu 	{ display: inline-block; float: none; }
+.footer-menu ul li 						{ float: none; display: inline-block; }
+.footer-menu ul li:first-child 			{ margin: 0; }
+
+/* ======================================================= */
+/* WIDGETS SETTINGS                  					   */
+/* ======================================================= */
+
+.footer-widgets .widget-container 						{ float: none; margin: 0 auto 50px; }
+.footer-widgets .widget-container:last-child 			{ margin: 0 auto; }
+
+/* ======================================================= */
+/* FONT SIZING                       					   */
+/* ======================================================= */
+
+.mainpage 												{ font-size: 18px; line-height: normal; }
+.mainpage, .mainpage p, .mainpage small					{ font-size: 18px; line-height: normal; }
+.mainpage li 											{ line-height: 25px; }
+
+.logo > span 											{ font-size: 18px; }
+
+ul.style1 li, ul.style2 li, ul.style3 li, 
+ul.style4 li, ul.style5 li, ul.style6 li 				{ background-position: 0 2px; }
+
+.entry-content											{ font-size: 18px; line-height: 28px; }
+.entry-content .frame p 								{ font-size: 16px; line-height: 23px; }
+
+.entry-title .breadcrumbs 								{ font-size: 18px;	 }
+
+.sc-accordion .ac-title a 								{ font-size: 16px; padding-left: 16px; }
+.widget_posts h3										{ font-size: 16px; }
+.widget-text p 											{ line-height: 28px; }
+.widget_calendar td, .widget_calendar th 				{ font-size: 17px; }
+.widget_archive li a,
+.widget_categories li a,
+.widget_links li a,
+.widget_meta li a,
+.widget_nav_menu li a,
+.widget_pages li a,
+.widget_recent_entries li a,
+.widget_rss li a,
+.widget_submenu li a 									{ font-size: 18px; line-height: 25px; }
+.hentry .date a, 
+h2.entry-title a,
+.hentry .share-link a,
+.hentry .edit-link a									{ font-size: 16px; }	
+
+/* ======================================================= */
+/* SHORTCODES SETTINGS                 					   */
+/* ======================================================= */
+
+.sc-column									{ width: 440px !important; margin: 0 !important; text-align: center; }
+
+.sc-fb-comments iframe, .fb_iframe_widget, 
+.twtr-widget, .twtr-doc						{ width: 396px !important; }
+
+.sc-modal-content.entry-content				{ width: 338px; }
+
+}

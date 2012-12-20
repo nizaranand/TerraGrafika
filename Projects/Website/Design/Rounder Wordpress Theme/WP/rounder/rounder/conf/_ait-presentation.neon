@@ -1,0 +1,5 @@
+description:
+	label: Description
+	type: textarea
+buttonIcon:
+	type: disabled

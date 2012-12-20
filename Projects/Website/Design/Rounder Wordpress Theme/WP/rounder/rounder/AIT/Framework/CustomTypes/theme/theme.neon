@@ -1,0 +1,197 @@
+"Type & download" : section
+themeType:
+	label: Type
+	type: select
+	default: {
+		free: {
+			label: Free Theme
+		},
+		demo: {
+			label: Demo Theme
+		},
+		aitTheme: {
+			label: AIT Theme
+		},
+		tfTheme: {
+			label: Themeforest Theme
+			checked: true
+		}
+	}
+
+isResponsive:
+	label: "Is Responsive?"
+	type: checkbox
+	default:
+		'yes':
+			checked: true
+
+downloadFreeID:
+	label: "Download ID"
+	type: text
+
+"Sidebar Description" : section
+sidebarDescription:
+	label: Description
+	type: textarea
+
+"Links & Price" : section
+docForTheme:
+	label: Doc for this theme
+	type: dropdown-categories
+	default: 'doc'
+
+skinsForTheme:
+	label: Skins for this theme
+	type: dropdown-categories
+	default: 'skin'
+	
+versionsForTheme:
+	label: Versions for this theme
+	type: dropdown-categories
+	default: 'version'
+	
+supportUrl:
+	label: Support URL 
+	type: text
+
+themeforestUrl:
+	label: Themeforest URL
+	type: text
+	
+demoUrl:
+	label: Demo URL
+	type: text
+
+youtubeUrl:
+	label: Youtube URL
+	type: text
+
+price:
+	label: Price
+	type: text
+
+"Images" : section
+largeImage:
+	label: Large image
+	type: image-url
+	
+smallImage:
+	label: Small image
+	type: image-url
+	
+previewImage:
+	label: "Preview image (themeforest)"
+	type: image-url
+
+iconImage:
+	label:  "Icon image (themeforest)"
+	type: image-url
+	 
+"Names" : section	
+shortname:
+	label: Shortname
+	type: text
+	
+codename:
+	label: Codename
+	type: text
+
+"Themebox" : section
+inThemebox:
+	label: "In ThemeBox?"
+	type: checkbox
+	default:
+		'yes':
+			checked: true
+
+"Gallery" : section
+gallery1:
+	label: "1. Image"
+	type: image-url
+gallery1text:
+	label: "1. Label"
+	type: text
+gallery2:
+	label: "2. Image"
+	type: image-url
+gallery2text:
+	label: "2. Label"
+	type: text
+gallery3:
+	label: "3. Image"
+	type: image-url
+gallery3text:
+	label: "3. Label"
+	type: text
+gallery4:
+	label: "4. Image"
+	type: image-url
+gallery4text:
+	label: "4. Label"
+	type: text
+gallery5:
+	label: "5. Image"
+	type: image-url
+gallery5text:
+	label: "5. Label"
+	type: text
+gallery6:
+	label: "6. Image"
+	type: image-url
+gallery6text:
+	label: "6. Label"
+	type: text
+gallery7:
+	label: "7. Image"
+	type: image-url
+gallery7text:
+	label: "7. Label"
+	type: text
+gallery8:
+	label: "8. Image"
+	type: image-url
+gallery8text:
+	label: "8. Label"
+	type: text
+gallery9:
+	label: "9. Image"
+	type: image-url
+gallery9text:
+	label: "9. Label"
+	type: text
+gallery10:
+	label: "10. Image"
+	type: image-url
+gallery10text:
+	label: "10. Label"
+	type: text
+gallery11:
+	label: "11. Image"
+	type: image-url
+gallery11text:
+	label: "11. Label"
+	type: text
+gallery12:
+	label: "12. Image"
+	type: image-url
+gallery12text:
+	label: "12. Label"
+	type: text
+gallery13:
+	label: "13. Image"
+	type: image-url
+gallery13text:
+	label: "13. Label"
+	type: text
+gallery14:
+	label: "14. Image"
+	type: image-url
+gallery14text:
+	label: "14. Label"
+	type: text
+gallery15:
+	label: "15. Image"
+	type: image-url
+gallery15text:
+	label: "15. Label"
+	type: text

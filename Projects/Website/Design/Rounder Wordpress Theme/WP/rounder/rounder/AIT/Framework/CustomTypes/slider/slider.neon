@@ -1,0 +1,21 @@
+slideLink:
+	label: Link for slide
+	type: text
+
+displayCaption:
+	label: Display caption?
+	type: radio
+	default:
+		'yes':
+			label: 'Yes'
+			checked: true
+		'no':
+			label: 'No'
+
+positionTop:
+	label: Position from top
+	type: text
+
+positionLeft:
+	label: Position from left
+	type: text

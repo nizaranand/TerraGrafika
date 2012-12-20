@@ -1,0 +1,7 @@
+eventDate:
+	label: Date
+	type: date
+	default: '2012-12-12'
+eventDescription:
+	label: Short descriotion
+	type: text

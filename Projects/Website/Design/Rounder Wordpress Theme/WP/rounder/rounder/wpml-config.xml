@@ -1,0 +1,14 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">ait-slider-creator</custom-type>
+        <custom-type translate="1">ait-service-box</custom-type>
+        <custom-type translate="1">ait-product</custom-type>
+        <custom-type translate="1">ait-portfolio</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">ait-slider-creator-category</taxonomy>
+        <taxonomy translate="1">ait-service-box-category</taxonomy>
+        <taxonomy translate="1">ait-product-category</taxonomy>
+        <taxonomy translate="1">ait-portfolio-category</taxonomy>
+    </taxonomies>
+</wpml-config>
