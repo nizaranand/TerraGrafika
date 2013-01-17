@@ -21,7 +21,7 @@
     </head>
     <body class="{bodyClasses $bodyClasses, ait-rounder}" data-themeurl="{$themeUrl}">
 
-        <div class="topbar-sticky">
+	 <div class="topbar-sticky" <?php if( is_front_page() ): ?>style="display:none;"<?php endif;?>>
             <div class="topbar-line">&nbsp;</div>
             <div class="wrapper">
                 <div class="menu-content clearfix left">
@@ -60,6 +60,7 @@
                 </div> <!-- /.side-right -->
             </div> <!-- /.wrapper -->            
         </div> <!-- /.topbar-sticky -->
+        
         <div class="logo-wrap wrapper">
             <a href="{$homeUrl}" class="logo">
                 <img src="{$themeOptions->general->logo_img}" alt="logo">
