@@ -1,0 +1,19 @@
+skinType:
+	label: Type
+	type: select
+	default: {
+		free: {
+			label: Free Skin
+		},
+		paid: {
+			label: Paid Skin
+		}
+	}
+
+price:
+	label: Price
+	type: text
+
+downloadID:
+	label: Donwload ID
+	type: text

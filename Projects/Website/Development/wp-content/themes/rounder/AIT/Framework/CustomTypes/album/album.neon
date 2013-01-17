@@ -1,0 +1,12 @@
+songEmbed:
+	label: Song link
+	type: text
+songLink:
+	label: Download link
+	type: text
+songBuy:
+	label: Buy link
+	type: text
+songVideo:
+	label: Video link
+	type: text

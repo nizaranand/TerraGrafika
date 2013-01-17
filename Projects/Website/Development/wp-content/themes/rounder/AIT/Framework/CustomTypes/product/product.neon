@@ -1,0 +1,16 @@
+productText:
+	label: Text
+	type: textarea
+
+productLink:
+	label: Link
+	type: text
+	
+productLabel:
+	label: Label
+	type: text
+	
+productLabelColor:
+	label: Label color
+	type: colorpicker
+	default: "#DDDDDD"

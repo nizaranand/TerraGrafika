@@ -1,0 +1,13 @@
+largeImage:
+	label: 'Large image'
+	type: image-url
+	default: "#"
+
+link:
+	label: 'Link'
+	type: text
+	help: 'Link is used if large image URL is empty'
+	
+description:
+	label: 'Description'
+	type: text

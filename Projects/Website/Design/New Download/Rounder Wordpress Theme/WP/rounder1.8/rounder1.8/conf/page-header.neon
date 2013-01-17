@@ -1,0 +1,9 @@
+overrideGlobal:
+	label: Use this setting
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+headerIcon:
+	label: Header Icon
+	type: image-url

@@ -1,0 +1,23 @@
+title: Album Shortcodes
+type: button
+
+shortcodeName: get_album	
+popupOptions:
+	category:
+		label: Category
+		type: select-category
+		category: album
+		class: all
+	description:
+		label: Show Description
+		type: select
+		class: all
+		default: {
+			'yes': {
+				label: 'Yes'
+			},
+			'no': {
+				label: 'No'
+				checked: true
+			}
+		}

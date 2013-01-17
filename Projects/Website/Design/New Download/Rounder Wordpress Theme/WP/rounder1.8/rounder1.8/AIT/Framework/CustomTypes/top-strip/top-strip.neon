@@ -1,0 +1,21 @@
+stripText:
+	label: Text
+	type: textarea
+stripLink:
+	label: Link
+	type: text
+stripItemCategory:
+	label: Category
+	type: select
+	default: {
+						custom: {
+							label: Custom
+							checked: true
+						},
+						social: {
+							label: Social
+						}
+					}
+stripItemContentWidth:
+	label: Content Width
+	type: text

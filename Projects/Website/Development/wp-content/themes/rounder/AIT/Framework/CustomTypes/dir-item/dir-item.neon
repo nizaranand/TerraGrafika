@@ -1,0 +1,23 @@
+address:
+	label: Address
+	type: textarea
+gpsLatitude:
+	label: GPS Latitude
+	type: text
+	default: 0
+gpsLongitude:
+	label: GPS Longitude
+	type: text
+	default: 0
+telephone:
+	label: Telephone
+	type: text
+email:
+	label: Email
+	type: text
+web:
+	label: Web
+	type: text
+hours:
+	label: Hours
+	type: wysiwyg

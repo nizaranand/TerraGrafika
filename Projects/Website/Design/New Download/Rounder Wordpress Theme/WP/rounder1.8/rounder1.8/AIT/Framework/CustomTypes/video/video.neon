@@ -1,0 +1,7 @@
+description:
+	label: Description
+	type: text
+
+videoLink:
+	label: Video Link
+	type: text

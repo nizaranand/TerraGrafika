@@ -1,0 +1,67 @@
+iconType:
+	label: Type
+	type: select
+	default: {
+		icon: {
+			label: Icon
+			checked: true
+		},
+		photo: {
+			label: Photo
+		}
+	}
+iconText:
+	label: Text
+	type: textarea
+iconLink:
+	label: Link
+	type: text
+	default: "#"
+iconWidth:
+	label: Width
+	type: select
+	default: {
+		one-full: {
+			label: 'full page width'
+			checked: true
+		},
+		one-half: {
+			label: '1 / 2 page width'
+		},
+		one-third: {
+			label: '1 / 3 page width'
+		},
+		two-third: {
+			label: '2 / 3 page width'
+		},
+		one-fourth: {
+			label: '1 / 4 page width'
+		},
+		three-fourth: {
+			label: '3 / 4 page width'
+		}
+	}
+iconAlign:
+	label: Align
+	type: select
+	default: {
+		left: {
+			label: Left
+			checked: true
+		},
+		center: {
+			label: Center
+		},
+		right: {
+			label: Right
+		}
+	}
+enableHoverEffect:
+	label: Enable hover effect
+	type: checkbox
+	default:
+		'yes':
+			label: "Yes"
+hoverIcon:
+	label: Hover icon
+	type: image-url

@@ -1,0 +1,9 @@
+isBigBox:
+	label: Large Box
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+boxLink:
+	label: Link
+	type: text

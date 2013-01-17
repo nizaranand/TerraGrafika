@@ -1,0 +1,541 @@
+generalOptions:
+	title: General Settings
+	menu-title: General Settings
+	tabs:
+		general:
+			title:     General Setting
+			tab-title: General
+			options:
+				Top-Header: section
+				#################
+				logo_img:
+					label: Logo image
+					type: image-url
+					default: 'design/img/logo.png'
+					skinable: false
+				tagline:
+					label: Tagline
+					type: text
+					default: 'abstract design<br>for website presentation'
+				Main Menu: section
+				#################
+				mainmenu_dropdown_time:
+					label: "Dropdown Animation Time (ms)"
+					type: text
+					default: 0.4
+				mainmenu_dropdown_animation:
+					label: "Dropdown Animation Easing"
+					type: select
+					default: {
+						linear: {
+							label: linear
+						},
+						ease: {
+							label: ease
+						},
+						ease-in: {
+							label: ease-in
+						},
+						ease-out: {
+							label: ease-out
+						},
+						ease-in-out: {
+							label: ease-in-out
+							checked: true
+						}
+					}
+				Comments: section
+				#################
+				closeComments:
+					label: Closeable comments
+					type: checkbox
+					default:
+						enable:
+							label: 'Yes'
+							checked: true
+				defaultPosition:
+					label: "Comments position"
+					type: select
+					default:
+						opened:
+							label: "Opened"
+						closed:
+							label: "Closed"
+							checked: true
+				CSS3 Features: section
+				#################
+				enableCSSFeatures:
+					label: Enable Features
+					type: checkbox
+					default:
+						enable:
+							label: 'Yes'
+							checked: true
+				Footer: section
+				#################
+				footer_text:
+					label: Footer text
+					type: wysiwyg
+					default: '<a href="http://www.ait-themes.com" style="color: #fff">&copy; 2012 Copyright by AIT.</a> All rights reserved. Lorem ipsum dolor sit amet consecteur...'
+					help: 'This text will be displayed in the footer of page'
+				Google Codes: section
+				#################
+				ga_code:
+					label: Google Analytics Tracking Code
+					type: text
+		globals:
+			title: Global settings
+			tab-title: Sections
+			options:
+				Header: section
+				#######################
+				headerIcon:
+					label: Header Icon
+					type: image-url
+					default: 'design/img/ico1.png'
+				Global sections order: section
+				#######################
+				sectionsOrder:
+					type: order
+					meta: '_ait_sections_order'
+					type: order
+					default:
+						sectionA: Section A - Content
+						sectionB: Section B - Testimonials
+						sectionC: Section C - Service box
+						sectionD: Section D - Presentation
+				Slider - Global Settings : section
+				#################
+				sliderEnable:
+					label: Show
+					type: radio
+					default:
+						true:
+							label: 'Yes'							
+							checked: true
+						false:
+							label: 'No'
+				sliderType:
+					label: Slider type
+					type: dropdown-sliders
+					default: Revolution slider
+				sliderCategory:
+					label: Anything slider
+					type: dropdown-categories
+					default: slider-creator
+				sliderAliases:
+					label: Revolution slider
+					type: dropdown-slider-aliases
+					default: subSlider
+				sliderAlternative:
+					label: Slider alternative
+					type: image-url
+					default: ''
+				sliderHeight:
+					label: "Slider Height (px)"
+					type: text
+					default: 442
+				sliderBgImg:
+					label: "Slider Background Image"
+					type: image-url
+					default: 'http://testing.ait-themes.com/rounder/wp1/wp-content/themes/rounder/design/img/subpage-slider-bg.png'
+				Service boxes - Global Settings : section
+				#################
+				showServiceBoxes:
+					label: Show
+					type: radio
+					default: {
+						'yes': {
+							label: 'Yes'
+							checked: true
+						},
+						'no': {
+							label: 'No'
+						}
+					}
+				globalServiceBoxes:
+					label: Service Boxes Category
+					type: dropdown-categories
+					default: 'services'
+				Presentation - Global Settings : section
+				#################
+				showPresentation:
+					label: Show
+					type: radio
+					default:
+						true:
+							label: 'Yes'
+						false:
+							label: 'No'
+							checked: true
+				globalPresentation:
+					label: Show Presentation Category
+					type: dropdown-categories
+					default: 'presentations'
+				presentationTitle:
+					label: Title
+					type: text
+					default: Lorem ipsum dolor sit amet consectetur elit
+				presentationEffect:
+					label: Effect
+					type: select
+					default: 
+						'Random':
+							label: Random
+						'FadeIn':
+							label: FadeIn
+							checked: true
+						'ScrollIn':
+							label: ScrollIn
+						'ScrollOut':
+							label: ScrollOut
+				Testimonials - Global Settings : section
+				#################
+				showTestimonials:
+					label: Show
+					type: radio
+					default:
+						true:
+							label: 'Yes'
+						false:
+							label: 'No'
+							checked: true
+				testimonialsText:
+					label: Testimonials Text
+					type: textarea
+				testimonialsBgColor:
+					label: Background Color
+					type: colorpicker
+					default: "#f9f9f9"
+				testimonialsColor:
+					label: Text Color
+					type: colorpicker
+					default: "#333333"
+				testimonialsLinkColor:
+					label: Testimonial Link Color
+					type: colorpicker
+					default: "#3ed4e5"
+		footer:
+			title:     Footer Settings
+			tab-title: Footer Widgets
+			less: true
+			options:
+				Footer - Widgets : section
+				#################
+				widthFirst:
+					label: "First Widget Width"
+					type: text
+					skinable: true
+					default: 307px
+				widthSecond:
+					label: "Second Widget Width"
+					type: text
+					skinable: true
+					default: 180px
+				widthThird:
+					label: "Third Widget Width"
+					type: text
+					skinable: true
+					default: 180px
+				widthFourth:
+					label: "Fourth Widget Width"
+					type: text
+					skinable: true
+					default: 201px
+				widthFifth:
+					label: "Fifth Widget Width"
+					type: text
+					skinable: true
+					default: 202px
+				widthSixth:
+					label: "Sixth Widget Width"
+					type: text
+					skinable: true
+					default: 202px
+		socialIcons:
+			title: Social icons
+			tab-title: Social icons
+			options:
+				"Icons": section-title
+				displayIcons:
+					label: Display social icons
+					type: checkbox
+					default:
+						display:
+							label: "Yes"
+							checked: true
+				icons:
+#					label: Social Icons
+					label-counter: 'Icon #'
+					type: clone
+					default: [
+						[
+							iconUrl: {
+								label: Icon URL,
+								type: image-url,
+								default: 'design/img/ico/fb.png'
+							},
+							title: {
+								label: Title,
+								type: text,
+								default: 'Facebook'
+							},
+							link: {
+								label: Link,
+								type: text,
+								default: 'http://www.facebook.com/AitThemes'
+							},
+						],
+						[
+							iconUrl: {
+								label: Icon URL,
+								type: image-url,
+								default: 'design/img/ico/yt.png'
+							},
+							title: {
+								label: Title,
+								type: text,
+								default: Whatch us on Youtube.
+							},
+							link: {
+								label: Link,
+								type: text,
+								default: 'http://www.youtube.com/user/AitThemes'
+							},
+						],
+						[
+							iconUrl: {
+								label: Icon URL,
+								type: image-url,
+								default: 'design/img/ico/tw.png'
+							},
+							title: {
+								label: Title,
+								type: text,
+								default: Follow us on Twitter
+							},
+							link: {
+								label: Link,
+								type: text,
+								default: 'http://www.twitter.com/AitThemes'
+							},
+						],
+						[
+							iconUrl: {
+								label: Icon URL,
+								type: image-url,
+								default: 'design/img/ico/fl.png'
+							},
+							title: {
+								label: Title,
+								type: text,
+								default: Flickr...
+							},
+							link: {
+								label: Link,
+								type: text,
+								default: 'http://www.flickr.com'
+							},
+						],
+						[
+							iconUrl: {
+								label: Icon URL,
+								type: image-url,
+								default: 'design/img/ico/rs.png'
+							},
+							title: {
+								label: Title,
+								type: text,
+								default: Get the lastest news.
+							},
+							link: {
+								label: Link,
+								type: text,
+								default: 'http://www.ait-themes.com/feed/'
+							},
+						],
+					]
+
+appearance:
+	title:     Appearance Settings
+	menu-title: Appearance
+	tabs:
+		colors:
+			title: Colors & Bacgkrounds
+			tab-title: Colors & Bacgkrounds
+			less: true
+			options:
+				Website Background: section
+				#################
+				htmlBgColor:
+					label: Background Color
+					type: colorpicker
+					default: '#f9f9f9'
+					themebox: { label: Background, page: all }
+				htmlBg:
+					label: Background Image
+					type: image-url
+					default: ''					
+				htmlBgY:
+					label: Vertical Position
+					type: select
+					default: {
+						top: {
+							label: Top
+							checked: true
+						},
+						center: {
+							label: Center
+						},
+						bottom: {
+							label: Bottom
+						}
+					}
+				htmlBgX:
+					label: Horizontal Position
+					type: select
+					default: {
+						left: {
+							label: Left
+						},
+						center: {
+							label: Center
+							checked: true
+						},
+						right: {
+							label: Right
+						}
+					}
+				htmlBgRepeat:
+					label: Repeat
+					type: select
+					default: {
+						no-repeat: {
+							label: No Repeat
+						},
+						repeat: {
+							label: Repeat
+						},
+						repeat-x: {
+							label: Repeat X
+							checked: true
+						},
+						repeat-y: {
+							label: Repeat Y
+						}
+					}
+				htmlBgAttach:
+					label: Scroll the background?
+					type: radio
+					themebox: {page: all}
+					default:
+						scroll:
+							label: 'Yes'
+							checked: true
+						fixed:
+							label: 'No'
+				topPanelBgColor:
+					label: Top Panel Background Color
+					type: colorpicker
+					default: '#333333'
+					themebox: { label: TopStrip Bg, page: all }
+				headerBgColor:
+					label: Header Background Color
+					type: colorpicker
+					default: '#f9f9f9'
+					themebox: { label: Header Bg, page: all }
+				footerBgColor:
+					label: Background Color
+					type: colorpicker
+					default: '#333333'
+					themebox: { label: TopStrip Bg, page: all }
+				Website Decoration: section
+				#################
+				decorColor:
+					label: Decorative Color
+					type: colorpicker
+					default: "#3ed4e5"	
+					themebox: { label: Theme, page: all }
+				secondDecorColor:
+					label: Decorative Color
+					type: colorpicker
+					default: "#92da4d"	
+					themebox: { label: Theme, page: all }
+				linesColor:
+					label: Lines Color
+					type: colorpicker
+					default: '#e3e3e3'
+					themebox: { label: Lines, page: all }
+		fonts:
+			title:     Fonts
+			tab-title: Fonts
+			less: true
+			options:
+				Font colors: section
+				#################
+				generalFontColor:
+					label:  General Text Color
+					type: colorpicker
+					default: '#777777'
+					themebox: {label: General Font Color, page: all}
+				menusFontColor:
+					label: Menu Font Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: {label: Menu Font, page: all}
+				titlesFontColor:
+					label:  Titles Font Color
+					type: colorpicker
+					default: '#333333'
+					themebox: {label: Titles Font, page: all}
+				linksFontColor:
+					label: Links Font Color
+					type: colorpicker
+					default: '#3ed4e5'
+					themebox: {label: Links Font, page: all}
+				footerTextFontColor:
+					label: Footer Text Color
+					type: colorpicker
+					default: '#879ea9'
+					themebox: {label: Footer Text, page: all}
+				footerTitlesFontColor:
+					label: Footer Titles Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: {label: Footer Titles, page: all}
+				footerDecorFontColor:
+					label:  Footer Decorations Font Color
+					type: colorpicker
+					default: '#3ed4e5'
+					themebox: {label: Footer Decor, page: all}
+				footerLinksFontColor:
+					label: Footer Links Color
+					type: colorpicker
+					default: '#879ea9'
+					themebox: {label: Footer Links, page: all}
+		customCss:
+			title: Custom CSS
+			tab-title: Custom CSS
+			options:
+				Your custom CSS: section
+				########################
+				customCss:
+					type: custom-css
+					default: '/* your custom CSS in LESS syntax */'
+				LESS variables for images: section
+				########################
+				customImages:
+					type: custom-css-vars
+					default: [
+						[
+							variable: {
+								label: Image name
+								type: text
+							},
+							value: {
+								label: Image
+								type: image-url
+							}
+						]
+
+					]

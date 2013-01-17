@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type"     content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="sk" />
+    <meta name="robots"                 content="index, follow" />
+    <meta name="description"            content="" />
+    <meta name="keywords"               content="" />
+    <meta name="author"                 content="" />
+
+    <link rel="stylesheet" type="text/css" href="css/clear.css"     media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/layout.css"    media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css"   media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/textmate.css"   media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/toolbar.css"    media="screen, projection" />
+
+    <!--[if IE 6]>
+        <link rel="stylesheet" type="text/css" link="css/ie6.css"    media="screen, projection" />
+    <![endif]-->
+    <!--[if IE 7]>
+        <link rel="stylesheet" type="text/css" link="css/ie7.css"    media="screen, projection" />
+    <![endif]-->
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollto.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <title>Installation Instructions | AIT-Themes.com</title>
+</head>
+
+<body>
+<!-- PAGE WRAPPER -->
+<div id="page">
+	<!-- HEADER -->
+	<div id="header">
+		<!-- LOGO -->
+		<div id="logo">
+			<a href="http://www.ait-themes.com"><img src="images/logo.png" alt="AIT s.r.o." /></a>
+		</div><!-- /#logo -->
+
+		<!-- TITLE -->
+		<div id="title">
+			<h1> Rounder  <span>Theme Documentation</span></h1>
+		</div><!-- /#title -->
+	</div><!-- /#header-->
+
+	<!-- CONTENT -->
+	<div id="content">
+
+		<!-- RESUME -->
+		<div id="resume">
+			 <p><a href="http://www.ait-themes.com/documentation/rounder-wordpress-theme">Online Documentation</a> - The up to date documentation</p><h3> Table of contents: </h3><ul><li><span></span><a href="#191">1. Hosting Requirements</a></li><li><span></span><a href="#2037">2. Rounder Theme Installation Instructions</a></li><li><span></span><a href="#266">3. Creating Custom Menus</a></li><li><span></span><a href="#1226">4. Work with Global and Local settings</a></li><li><span></span><a href="#1974">5. Rounder Homepage</a></li><li><span></span><a href="#1926">6. How to Use Service Boxes</a></li><li><span></span><a href="#2042">7. How to Import and Use Revolution Slider</a></li><li><span></span><a href="#1929">8. How to Use Presentations</a></li><li><span></span><a href="#288">9. Translating theme to other languages</a></li><li><span></span><a href="#315">10. Setting Up Contact Form</a></li><li><span></span><a href="#291">11. Advanced users: Editing HTML files</a></li></ul>
+		</div>
+
+        <h2 id="191">1. Hosting Requirements</h2><p>We always test our themes on most standard hosting set ups, however make sure your hosting match the following requirements:</p>
+<ul>
+<li>PHP5 version</li>
+<li>PHP5 GD library installed</li>
+<li>Notices &amp; Warnings are turned off</li>
+<li>We also recommend mod_rewrite enabled</li>
+<li>Memory limit set up at least 64MB</li>
+<li>upload_max_filesize at least 10MB</li>
+<li>Please also check that you have permissions to write to theme folder</li>
+</ul>
+<h2 id="2037">2. Rounder Theme Installation Instructions</h2><h3><strong>Theme Installation</strong></h3>
+<p>Theme should be installed standard way via wordpress admin panel.</p>
+<ol>
+<li>Please navigate to "Appearance -&gt; Themes -&gt; Install Themes"</li>
+<li>Click on Upload</li>
+<li>Select your theme from WP folder that is included in the Zip file you purchased.</li>
+<li>Click Install Now</li>
+<li>After the theme is successfully installed, click Activate</li>
+</ol>
+<p>[notification type="attention"]Please, do not change the name of theme folder and prefix of Wordpress database tables (default prefix is "wp_").[/notification]</p>
+<h3><strong>Importing Default Content</strong></h3>
+<p>For faster site development we recommend you to import default content. Default content shows you all page layouts, shortcodes, post types and revolution slider.</p>
+<p><a href="images/uncheck.png"><img class="aligncenter size-full wp-image-2050" title="uncheck" src="images/uncheck.png" alt="" width="950"  /></a></p>
+<p>First step before import is to UNCHECK <strong><span style="color: #ff0000;">(3)</span></strong> "Organize my uploads into .. " in Settings <strong><span style="color: #ff0000;">(1)</span></strong> / Media <strong><span style="color: #ff0000;">(2)</span></strong>.</p>
+<p>Then go to Tools -&gt; Import -&gt; WordPress -&gt; Upload file and import. Please select a file called defaultcontent-export.xml and and simply click Upload file and import. We recommend you installing Contact Form 7? plugin before running import. Itll import you also contact form examples.</p>
+<p><span style="color: #ff0000;">NOTE:</span> for importing content use this plugin <a href="http://wordpress.org/extend/plugins/wordpress-importer/">WordPress Importer</a>.</p>
+<p><strong>Setting Up Homepage and Blog</strong></p>
+<p>Please note that you have to select a homepage and posts page for our theme to work properly.</p>
+<p><strong>1.</strong> If you havent uploaded our default content, please create a new page. You can of also edit the existing homepage we provided in default content.</p>
+<p><strong>2.</strong> In pages <strong><span style="color: #ff0000;">(4)</span></strong> choose "Homepage Presentation" <strong><span style="color: #ff0000;">(5)</span></strong> it's page that should become your homepage and Select Default Template" <strong><span style="color: #ff0000;">(6)</span></strong>.</p>
+<p><a href="images/Homepage-Settings.png"><img class="aligncenter size-full wp-image-2053" title="Homepage Settings" src="images/Homepage-Settings.png" alt="" width="1416"  /></a></p>
+<p>&nbsp;</p>
+<p><strong>3. Navigate to: Admin -&gt; Settings -&gt; Reading <span style="color: #ff0000;">(7)</span> and set a static page <span style="color: #ff0000;">(8)</span> and Front page <span style="color: #ff0000;">(9)</span> &amp; Posts page <span style="color: #ff0000;">(10)</span>:</strong></p>
+<p>&nbsp;</p>
+<p><a href="images/Readeing-Settings.png"><img class="aligncenter size-full wp-image-2052" title="Readeing Settings" src="images/Readeing-Settings.png" alt="" width="933"  /></a></p>
+<h2 id="266">3. Creating Custom Menus</h2><p>1. Navigate to: Appearance  Menus</p>
+<p>2. Now you can choose any items like pages, categories or custom links from the left column them to add to Main menu or Footer menu.</p>
+<p>After you have added in your items, you can use drag and drop to order individual items. You can also click each item to reveal additional configuration options.</p>
+<p>When you have finished building your custom menu, make sure you click the Save Menu button.</p>
+<p>3. Its also important to define which menu will become your Primary menu and which one will be a Footer menu. This can be set in Theme Locations box on the left hand side.</p>
+<p><a href="images/theme-menus1.png"><img class="alignnone size-full wp-image-330" title="theme-menus1" src="images/theme-menus1.png" alt="" width="972"  /></a></p>
+<h2 id="1226">4. Work with Global and Local settings</h2><p>In this template you can use two types of settings:</p>
+<ol>
+<li>Global settings</li>
+<li>Local settings</li>
+</ol>
+<h2>Global settings</h2>
+<p>Global settings can be found in the General Settings page. All what you have set up in these global settings is set up for all you pages.</p>
+<p>If you want to have slider, or for example the same appearance of site header, you don't need to make these changes in all pages which you create.<br />
+All this you can set up in the global settings.</p>
+<p>Here is an example of settings, when you want to have slider on all your pages:</p>
+<p><a href="images/globalsFinal.png"><img class="aligncenter size-full wp-image-1228" title="Global settings example" src="images/globalsFinal.png" alt="" width="1243"  /></a><br />
+Using this global settings may save your time, when you want to have slider in all, or in most of your pages. You need just to set this global settings, and if you want to turn off slider for the specific page, you can do it in the Local setting of specific page.</p>
+<h2>Local settings</h2>
+<p>Local settings are settings which you may see under visual editor while you creating or editing you page.<br />
+With these settings you can set up specific settings for the specific page.</p>
+<p>If you want to have set up slider for example <strong>only</strong> in your homepage, you can set up this slider in the Local settings of your homepage like is demonstrate in this image:</p>
+<p><a href="images/localsFinal.png"><img class="aligncenter size-full wp-image-1229" title="" src="images/localsFinal.png" alt="" width="1330"  /></a></p>
+<p>&nbsp;</p>
+<h2 id="1974">5. Rounder Homepage</h2><p>The Homepage of the Rounder Wordpress theme contains following sections:</p>
+<ul>
+<li><a href="http://www.ait-themes.com/doc/how-to-use-revolution-slider/?theme=rounder-wordpress-theme">Slider</a></li>
+<li><a href="http://www.ait-themes.com/doc/inserting-service-boxes-4/?theme=rounder-wordpress-theme">Service Boxes</a></li>
+<li><a href="http://www.ait-themes.com/doc/inserting-presentations/?theme=rounder-wordpress-theme">Presentations</a></li>
+</ul>
+<p>The layout of the homepage is shown in the picture below</p>
+<h3><a href="images/rounder-homepage-sections.jpg"><img src="images/rounder-homepage-sections.jpg" alt="" title="rounder-homepage" class="aligncenter size-full wp-image-1975" /></a></h3>
+<h3 id="rounder-slider"><strong>Slider</strong></h3>
+<p>This theme lets you use powerfull <a href="http://www.ait-themes.com/doc/how-to-use-revolution-slider/?theme=rounder-wordpress-theme"><strong>Revolution Slider</strong></a>.</p>
+<p>Also there is alternative Anything slider with descriptions.</p>
+<ul>
+<li><strong>Put there </strong><strong>any pictures</strong> you want and make them different from another</li>
+<li>Give picture a <strong>descriptions </strong>and<strong> links</strong></li>
+</ul>
+<p>Each tab of slider is set up in the General settings &gt; Header. The sliders can be set up locally in each page.</p>
+<h3><strong>Service Boxes</strong></h3>
+<p><a href="http://www.ait-themes.com/doc/inserting-service-boxes-4/?theme=rounder-wordpress-theme">Service boxes section</a> in this theme lets you instert an item with custom image, header name, description and link. There also "CSS3 Features" option in the general settings. When "CSS3 Features" option is turned on, service boxes will do some magic... ;)</p>
+<h3><strong>Presentations</strong></h3>
+<p>In <a href="http://www.ait-themes.com/doc/inserting-presentations/?theme=rounder-wordpress-theme">Presentations section</a> you can insert presentation items that have image and description. There are tabs for changing showed item. You can also set item transition effect.</p>
+<h2 id="1926">6. How to Use Service Boxes</h2><p>If you want to add service boxes to you website, click on <strong>Service-Boxes</strong> from <strong>WordPress Menu.</strong>Creating service boxes is similar to creating standard posts in wordpress. Each service box item can have:</p>
+<ol>
+<li><strong>Image</strong></li>
+<li><strong>Text</strong></li>
+<li><strong>Link</strong></li>
+<li><strong>Custom Width</strong> (Leave empty for auto calculation.)</li>
+</ol>
+<p><a href="images/rounder-sboxes.jpg"><img src="images/rounder-sboxes.jpg" alt="" title="rounder-sboxes" width="1083"  class="aligncenter size-full wp-image-1928" /></a></p>
+<p>You can create various service boxes categories and then show only particular service box category on any post or page. You can also set these settings globally that means itll show on every page.</p>
+<h2 id="2042">7. How to Import and Use Revolution Slider</h2><p><strong>Revolution Slider comes with these features:</strong></p>
+<ul>
+<li>Unlimited Slides</li>
+<li>Unlimited Caption Layers</li>
+<li>CSS Animation with a fallBack to jQuery</li>
+<li>Vimeo &amp; YouTube video</li>
+<li>Drag and Drop layering</li>
+</ul>
+<div><strong>How to import Rounder Effects in to the Revolution Slider in 4 steps:</strong></div>
+<div></div>
+<div><strong>1.</strong> Go to Revoliton Slider plugin <strong><span style="color: #ff0000;">(A)</span></strong> / create new slider / choose title <strong><span style="color: #ff0000;">(B)</span></strong> and in to alias field  <strong><span style="color: #ff0000;">(C)</span></strong> write exactly "<strong>revSlider</strong>"</div>
+<div></div>
+<div><a href="images/revSlider.png"><img class="aligncenter size-full wp-image-2054" title="revSlider" src="images/revSlider.png" alt="" width="993"  /></a></div>
+<div>Then create another new slider for subpages:</div>
+<div></div>
+<div><strong>2.</strong> Go to Revoliton Slider plugin <strong><span style="color: #ff0000;">(D)</span></strong> / create new slider / choose title <strong><span style="color: #ff0000;">(E)</span></strong> and in to alias field<strong><span style="color: #ff0000;"> (F)</span></strong> write exactly "<span style="color: #ff0000;"><strong>subSlider</strong></span>"</div>
+<div></div>
+<div><a href="images/Subslider.png"><img class="aligncenter size-full wp-image-2055" title="Subslider" src="images/Subslider.png" alt="" width="993"  /></a></div>
+<div></div>
+<div><strong>3.</strong> After that go to <strong>revslider</strong> and click on "show import / export" <strong><span style="color: #ff0000;">(I)</span></strong> and "choose file" <strong><span style="color: #ff0000;">(J)</span></strong> and select "<span style="color: #ff0000;">defaultslider-export-revSlider.txt</span>" file and click on import slider <strong><span style="color: #ff0000;">(K)</span></strong></div>
+<div></div>
+<div><strong>4.</strong> The same you have to do for <strong>subslider</strong>, but you need to import file "<span style="color: #ff0000;">defaultslider-export-subSlider.txt</span>".</div>
+<div></div>
+<div><a href="images/importslider.png"><img class="aligncenter size-full wp-image-2056" title="importslider" src="images/importslider.png" alt="" width="1002"  /></a></div>
+<div></div>
+<div><strong>How to set up new design of Revolution Slider:</strong></div>
+<div></div>
+<div>First step to get Revolution Slider work is to upload pictures in to the media library and then add pics into to the slider in the section Sliders<strong> <span style="color: #ff0000;">(1)<span style="color: #000000;">.</span></span></strong></div>
+<p>Then in section Revolution Slider <strong><span style="color: #ff0000;">(2)</span></strong> click on add new slider<strong><span style="color: #ff0000;"> (3)</span></strong>.</p>
+<p><a href="images/rev-slider.png"><img class="aligncenter size-full wp-image-1986" title="rev-slider" src="images/rev-slider.png" alt="" width="945"  /></a></p>
+<p>There you can set and edit basic settings about slider like slide transitions, slide change speed, shadowing, responsivity, slide navigation etc.</p>
+<p>Then go to edit slides <strong><span style="color: #ff0000;">(4) </span></strong>where you can set up everything what you would like to add to your slides.</p>
+<p><a href="images/general-settings.png"><img class="aligncenter size-full wp-image-1903" title="general settings" src="images/general-settings.png" alt="" width="1423"  /></a></p>
+<p>In the section edit slides <strong><span style="color: #ff0000;">(4) </span></strong><span><span style="color: #000000;">choose slide from slides list <strong><span style="color: #ff0000;">(5)</span></strong> which you would like to edit (click on edit slide).</span></span></p>
+<p><a href="images/slides-list.png"><img class="aligncenter size-full wp-image-1913" title="slides list" src="images/slides-list.png" alt="" width="901"  /></a></p>
+<p>On the top <strong><span style="color: #ff0000;">(6)</span></strong> you have some basic settings (transition, slot amount, rotation, delay etc.). In section Slide Image and Layers <strong><span style="color: #ff0000;">(7)</span></strong> you can add (delete) new layers (text, image, video) <strong><span style="color: #ff0000;">(8)</span> </strong>and they starting to sort continually with adding in section Layers Sorting<strong><span style="color: #ff0000;"> (9)</span></strong>. Just drag and reorder <strong><span style="color: #ff0000;">(10)</span></strong> them how you wish :)</p>
+<p>All layers you can simply drag<strong><span style="color: #ff0000;"> (11)</span></strong> and drop exactly where you want them on slide picture.</p>
+<p>In layer params <strong><span style="color: #ff0000;">(12)</span></strong> you can set / edit text, video, pics, animations, position and css file ( <strong><span style="color: #ff0000;">(13)</span></strong> as well.</p>
+<p><a href="images/edit-slides.png"><img class="aligncenter size-full wp-image-1914" title="edit slides" src="images/edit-slides.png" alt="" width="1083"  /></a></p>
+<p>For more information follow original documentation of <a href="http://wpmu.org/revolution-slider-a-premium-drag-and-drop-slider-for-wordpress/">Revolution Slider</a>.</p>
+<h2 id="1929">8. How to Use Presentations</h2><p>If you want to add presentations to your website, click on <strong>Presentations</strong> from <strong>WordPress Menu.</strong>Creating presentations is similar to creating standard posts in wordpress. Each presentation item can have:</p>
+<ol>
+<li><strong>Title</strong></li>
+<li><strong>Image</strong></li>
+<li><strong>Description</strong></li>
+<li><strong>Link</strong></li>
+</ol>
+<p><a href="images/rounder-presentation-settings.jpg"><img src="images/rounder-presentation-settings.jpg" alt="" title="rounder-presentation-settings" width="1100"  class="aligncenter size-full wp-image-1930" /></a></p>
+<p>You can create various presentations categories and then show only particular presentation category on any post or page. You can also set these settings globally that means itll show on every page.</p>
+<p>Also you can set:</p>
+<ol>
+<li><strong>Title</strong></li>
+<li><strong>Image</strong></li>
+<li><strong>Description</strong></li>
+<li><strong>Link</strong> (Leave empty for auto calculation.)</li>
+</ol>
+<p>You can also set all of these settings globaly in Sections tab of General Settings.</p>
+<p><a href="images/rounder-presentations-settings.jpg"><img src="images/rounder-presentations-settings.jpg" alt="" title="rounder-presentations-settings" width="1077"  class="aligncenter size-full wp-image-1931" /></a></p>
+<h2 id="288">9. Translating theme to other languages</h2><p>You can translate your website to any language. Theme is <a href="http://wpml.org/?aid=11900&amp;affiliate_key=rMmz4t21P5pf" target="_blank">WPML wordpress plugin</a> compatible.</p>
+<p><a href="http://wpml.org/?aid=11900&amp;affiliate_key=rMmz4t21P5pf"><img title="WPML Ready WordPress Theme" src="images/wpml.png" alt="" width="150"  /></a></p>
+<p>When you have this wordpress plugin then go to Plugins  &gt; Add New  &gt; Upload, upload and activate your WPML package. In WP-Menu should appear WPML button. Click on it and choose languages and default language. At top of Admin should appear language selector. Then you can simply switch between your languages and set up custom admin values for every language.</p>
+<p><a href="images/language1.jpg"><img class="alignnone size-full wp-image-362" title="language1" src="images/language1.jpg" alt="" width="1082"  /></a></p>
+<p>You can translate widgets and widget titles too, but you must use lang shortcode: <code>[lang code=en]Text[/lang]</code></p>
+<p><a href="images/language-21.png"><img class="alignnone size-full wp-image-363" title="language-21" src="images/language-21.png" alt="" width="1087"  /></a></p>
+<h2 id="315">10. Setting Up Contact Form</h2><p>For contact form we use a free wodpress plugin called <a href="http://wordpress.org/extend/plugins/contact-form-7/">Contact Form 7</a>. More info about this plugin can be found on the following url: <a href="http://contactform7.com/">http://contactform7.com/</a></p>
+<p>To install this plugin go to <strong>Plugins  &gt; Add new</strong> and type into search bar <strong>Contact Form 7</strong>. Find the plugin and click to <strong>Install Now</strong>.</p>
+<p><a href="images/contact-11.png"><img class="alignnone size-full wp-image-345" title="contact-11" src="images/contact-11.png" alt="" width="1087"  /></a><a href="http://www.ait-themes.com/wp-content/uploads/2011/09/contact-1.png"><br />
+</a>Then click <strong>Activate Plugin. </strong>A new menu section will be created at the left hand side. Itll be called<strong>Contact.</strong></p>
+<p><a href="images/contact-21.png"><img class="alignnone size-full wp-image-346" title="contact-21" src="images/contact-21.png" alt="" width="1087"  /></a></p>
+<p>If you want to have the same contact form like we have at our demo site, you can also install <strong><a href="http://wordpress.org/extend/plugins/really-simple-captcha/">Really Simple CAPTCHA</a></strong> plugin. Code that we use on our demo site is as follows. Please insert it into <strong>Form</strong> box in Contact settings page:</p>
+<pre>&lt;p&gt;<br />
+&lt;label for="your-name"&gt;Name &lt;span&gt;*&lt;/span&gt;&lt;/label&gt;[text* your-name]<br />
+&lt;/p&gt;</p>
+<p>&lt;p&gt;<br />
+&lt;label for="your-email"&gt;Email &lt;span&gt;*&lt;/span&gt;&lt;/label&gt;[email* your-email]<br />
+&lt;/p&gt;</p>
+<p>&lt;p&gt;<br />
+&lt;label for="your-subject"&gt;Subject&lt;/label&gt;[text your-subject]<br />
+&lt;/p&gt;</p>
+<p>&lt;p&gt;<br />
+&lt;label for="your-message"&gt;Message&lt;/label&gt;[textarea your-message]<br />
+&lt;/p&gt;</p>
+<p>&lt;p&gt;<br />
+&lt;label for=" slect-os"&gt;Your OS&lt;/label&gt;[select slect-os " " "Windows XP" "Windows 7" "Apple" "Linux"]<br />
+&lt;/p&gt;</p>
+<p>&lt;p&gt;<br />
+[checkbox* agreement use_label_element exclusive "I agree with the terms of use of this Contact Form"]<br />
+&lt;/p&gt;</p>
+<p>&lt;p&gt;<br />
+&lt;span&gt;Do you need Support ?&lt;/span&gt;[radio radiobuts use_label_element "Yes" "No" "Nobody Knows"]<br />
+&lt;/p&gt;</p>
+<p>&lt;p&gt;<br />
+&lt;span&gt;Do you need Support ?&lt;/span&gt;[radio radio-vertical use_label_element "Yes Vertical" "No Vertical" "Nobody Knows Vertical"]<br />
+&lt;/p&gt;</p>
+<p>&lt;p&gt;<br />
+[captchac captcha-1] [captchar captcha-1]<br />
+&lt;/p&gt;</p>
+<p>&lt;p&gt;[submit "Send Message"]&lt;/p&gt;</pre>
+<p>Once you have your contact form created, you can insert into to any of you pages with a simple<strong>contact-form </strong>shortcode:<br />
+<a href="images/contact-41.png"><img class="alignnone size-full wp-image-347" title="contact-41" src="images/contact-41.png" alt="" width="1087"  /></a><a href="http://www.ait-themes.com/wp-content/uploads/2011/09/contact-4.png"><br />
+</a><br />
+<a href="images/contact-5.png"><img class="alignnone size-full wp-image-348" title="contact-5" src="images/contact-5.png" alt="" width="666"  /></a></p>
+<h2 id="291">11. Advanced users: Editing HTML files</h2><p>If you are an advanced user and would like to edit HTML directly, please be advised that we use a MVC architecture that allowed us to completely separate HTML content from standard WordPress PHP files.</p>
+<ul>
+<li>HTML templates can be found in folder <strong>./Templates</strong></li>
+<li>CSS is in file <strong>style.less.css</strong>, please note that style.css is generate dynamically and all your changes will be therefore deleted</li>
+</ul>
+<p>You can read more about our templating engine WpLatte on the <a href="http://www.ait-themes.com/documentation/wplatte/" target="_blank">following url</a>.</p>
+
+
+	</div><!-- /#content -->
+
+</div><!-- /#page -->
+
+<div id="toolbar">
+	<ul class="clear">
+		<li class="website"><a href="http://www.ait-themes.com">www.AitThemes.com</a></li>
+		<li class="top fr"><a href="#">Top</a></li>
+	</ul>
+</div><!-- /#toolbar -->
+</body>
+</html>

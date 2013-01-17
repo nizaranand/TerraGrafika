@@ -1,0 +1,11 @@
+description:
+	label: Description
+	type: text
+
+buttonIcon:
+	label: Icon
+	type: image-url
+	
+link:
+	label: Link
+	type: text

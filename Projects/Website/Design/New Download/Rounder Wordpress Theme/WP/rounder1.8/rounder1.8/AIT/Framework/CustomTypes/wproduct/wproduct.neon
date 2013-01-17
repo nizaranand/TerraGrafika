@@ -1,0 +1,13 @@
+productVisible:
+	label: Show Product
+	type: checkbox
+	default:
+		display:
+			label: "Yes"
+			checked: true
+productDescription:
+	label: Description
+	type: textarea
+productLink:
+	label: Link
+	type: text
