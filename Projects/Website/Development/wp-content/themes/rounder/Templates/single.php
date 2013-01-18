@@ -36,18 +36,6 @@
 			<div class="entry-meta post-footer">
 
 				{if $post->type == 'post'}
-					<p>
-						<span class="single-posted">
-							<strong>{_x 'Posted:', 'posted'}</strong>
-							<a class="url fn n ln" href="{$post->author->postsUrl}" title="{__ 'View all posts by'} {$post->author->name}" rel="author">
-								{$post->author->name}
-							</a>
-						</span>
-					<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-		    		{if $post->categories}
-		                	<span class="single-categories"><strong>{__ 'Categories:'}</strong> {!$post->categories}</span>
-		            {/if}
-		            </p>
 
 					{if $post->tags}
 					<p><span class="tag-links">
